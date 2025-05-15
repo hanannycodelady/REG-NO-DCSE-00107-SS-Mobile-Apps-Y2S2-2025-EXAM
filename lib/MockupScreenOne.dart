@@ -10,7 +10,7 @@ class Mockupscreenone extends StatefulWidget {
 class _MockupscreenoneState extends State<Mockupscreenone> {
   int _selectedTabIndex = 0;
   final List<String> _tabs = ['Popular', 'Upcoming', 'Now Playing'];
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,6 +29,7 @@ class _MockupscreenoneState extends State<Mockupscreenone> {
                   color: const Color(0xFF01B4A7),
                   borderRadius: BorderRadius.circular(3),
                 ),
+                // this is my header section
                 child: const Text(
                   'TMDB',
                   style: TextStyle(
@@ -82,7 +83,7 @@ class _MockupscreenoneState extends State<Mockupscreenone> {
                   ),
                 ),
                 
-                // Category Tabs
+                // These are my genres 
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: Row(
@@ -118,7 +119,7 @@ class _MockupscreenoneState extends State<Mockupscreenone> {
             ),
           ),
           
-          // Movie List on White Background
+          // these are my lists of movies with their title,durations,genres and description
           Expanded(
             child: ListView(
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
@@ -167,7 +168,7 @@ class _MockupscreenoneState extends State<Mockupscreenone> {
         backgroundColor: Colors.white,
         selectedItemColor: const Color(0xFF01B4A7),
         unselectedItemColor: Colors.grey,
-        currentIndex: 1, // Movies tab is selected
+        currentIndex: 1, 
         showSelectedLabels: true,
         showUnselectedLabels: true,
         elevation: 0,

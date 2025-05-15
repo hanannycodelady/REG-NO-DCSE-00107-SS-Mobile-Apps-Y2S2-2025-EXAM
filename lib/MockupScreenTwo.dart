@@ -11,7 +11,6 @@ class Mockupscreentwo extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Featured Movie Banner
             Stack(
               children: [
                 Container(
@@ -19,10 +18,9 @@ class Mockupscreentwo extends StatelessWidget {
                   width: double.infinity,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      // Use a placeholder or actual URL since assets can't be loaded directly with NetworkImage
+                  //this is showing the image for the upper section 
                       image: NetworkImage('assets/images/jumanji copy.jpeg'),
-                      // For local assets, configure pubspec.yaml and use AssetImage:
-                      // image: AssetImage('assets/images/jumanji.jpg'),
+                    
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -143,7 +141,7 @@ class Mockupscreentwo extends StatelessWidget {
                   const SizedBox(width: 12),
                   _buildMovieCard(
                     'Ford v Ferrari',
-                    'Biography, Sport',
+                    'Drama, Action',
                     'assets/images/Ford_v._Ferrari_(2019_film_poster).png',
                   ),
                 ],
@@ -166,8 +164,6 @@ class Mockupscreentwo extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(8),
             image: DecorationImage(
-              // For assets, configure pubspec.yaml and use:
-              // image: AssetImage(imageUrl),
               image: NetworkImage(imageUrl),
               fit: BoxFit.cover,
             ),
@@ -186,7 +182,7 @@ class Mockupscreentwo extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black, // Changed to black for visibility
+                  color: Colors.black, 
                 ),
               ),
               const SizedBox(height: 2),
