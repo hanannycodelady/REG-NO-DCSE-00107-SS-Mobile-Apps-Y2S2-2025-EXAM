@@ -1,4 +1,4 @@
-import 'package:exam_2025/MockupScreenOne.dart';
+//import 'package:exam_2025/MockupScreenOne.dart';
 import 'package:exam_2025/MockupScreenTwo.dart';
 import 'package:flutter/material.dart';
 
@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       ),
-      home: Mockupscreenone(),
-      //home: Mockupscreentwo(),
+      //home: Mockupscreenone(),
+      home: Mockupscreentwo(),
 
       
       
