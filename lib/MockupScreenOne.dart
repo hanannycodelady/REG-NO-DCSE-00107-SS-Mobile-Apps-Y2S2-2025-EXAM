@@ -46,7 +46,7 @@ class Mockupscreenone extends StatelessWidget {
                     icon: const Icon(Icons.search),
                     label: const Text("Find your movies..."),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.blueAccent,
+                      backgroundColor: const Color.fromARGB(255, 182, 184, 185),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),

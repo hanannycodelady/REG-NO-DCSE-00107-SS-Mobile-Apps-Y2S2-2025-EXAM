@@ -72,7 +72,7 @@ Mockupscreentwo extends StatelessWidget {
           SliverToBoxAdapter(
             child: Padding(
               padding: EdgeInsets.all(16),
-              child: Column(
+              child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SectionTitle('whats popular Movies'),
